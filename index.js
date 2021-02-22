@@ -6,7 +6,11 @@ let increaseBtn = document.getElementById("increase_button");
 // create varioable for counter
 let counter = document.getElementById("counter");
 // create variable to keep track of count in counter value of coun
-let count = 0;
+
+// TASK: instead of  hardcoding an inital value to 'count'
+// we should find the starting value from the html and use that value
+
+let count = parseInt(document.getElementById("counter").innerText);
 
 //AddEventListeners
 //console.log everything first then continue implementing function
@@ -32,20 +36,20 @@ increaseBtn.addEventListener('click', ()=>{
 })
 
 //Adding color change based on count increase/decrease
-// function counterStyle(){
-//     // if count is negative add classList of "negative"
-//     if (count < 0){
-//         counter.classList.add("negative");
-//     }
-//     // if count is negative add classList of "positive"
-//     else if (count > 0){
-//         counter.classList.add("positive");
-//     }
-//     // if count is not negative or positive dont add class at all
-//     else{
-//         counter.classList.remove("negative");
-//         counter.classList.remove("positive");
-//     }
-//     }
-// add .negative and .positive class to CSS
+function counterStyle(){
+    // if count is negative add classList of "negative"
+    if (count < 0){
+        counter.classList.add("negative");
+    }
+    // if count is negative add classList of "positive"
+    else if (count > 0){
+        counter.classList.add("positive");
+    }
+    // if count is not negative or positive dont add class at all
+    else{
+        counter.classList.remove("negative");
+        counter.classList.remove("positive");
+    }
+    }
+
 // add animation to number color change
