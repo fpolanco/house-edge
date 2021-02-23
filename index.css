@@ -52,9 +52,12 @@ body {
 
 
 .negative {
-    color:red
+    color:red;
+    
 }
 
 .positive {
     color: green;
+    
 }
+

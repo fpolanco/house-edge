@@ -45,7 +45,7 @@ function counterStyle(){
     else if (count > 0){
         counter.classList.add("positive");
     }
-    // if count is not negative or positive dont add class at all
+    // if count is not negative or positive remove class and go back to original styling
     else{
         counter.classList.remove("negative");
         counter.classList.remove("positive");
