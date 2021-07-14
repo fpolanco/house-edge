@@ -5,28 +5,38 @@
 
 ## Table of contents:
 * [General info](#general-info)
-* [Technologies](#technologies)
+* [Technologies Used](#technologies-used)
 * [Demo](#demo)
 
 ## General info:
-The count helps count cards using the hi-lo system. By the click of an increment or decrement button the user 
-can change the counter value.
+The count helps BlackJack players count cards using the hi-lo system. By clicking cards counter, increments, decrements or stays neutral depending on card value. 
+
+<img width="553" alt="hi-lo" src="https://user-images.githubusercontent.com/59297307/125664226-947e13e7-6e3c-427f-9ffd-042e2101f0a2.png">
+
 
 ## Technologies Used:
- #### HTML
- #### CSS
- #### Javascript
+ * HTML
+ * CSS
+ * Javascript
 
 ## Demo:
-<a href="https://www.loom.com/share/dc40482c3a7c42f884506d544c4a4f17"> <p>Simple Javascript Counter Demo - Watch Video</p> <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/public/dc40482c3a7c42f884506d544c4a4f17-with-play.gif"> </a>
+![](countdemo.gif)
 
 # Getting Started:
+1. Fork and clone this repo to your local machine. To clone, enter:
+
+     `git clone https://github.com/fpolanco/house-edge.git`
+   
+   CD into directory for this project in a terminal or editor of your choice.
+
+3. `open index.html` to view it in the browser.
+ 
 
 
 ## Future Updates:
 
-- [ ] React Router
-- [ ] OAuth
+- [ ] Implement Object Oriented Programming
+- [ ] Create with React.js
 
 ## Special Thanks
 * [Madhur Malhotra](https://www.linkedin.com/in/madhurxyz/) - For helping  with design and creating beautiful logo and powerpoint presentation.
