@@ -37,6 +37,7 @@ The count helps BlackJack players count cards using the hi-lo system. By clickin
 
 - [ ] Implement Object Oriented Programming
 - [ ] Create with React.js
+- [ ] Improve styling
 
 ## Special Thanks
 * [Madhur Malhotra](https://www.linkedin.com/in/madhurxyz/) - For helping  with design and creating beautiful logo and powerpoint presentation.
